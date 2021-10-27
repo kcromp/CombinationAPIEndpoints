@@ -10,10 +10,15 @@ and denominations for an arbitrary total sum.
 
 ## Requirements 
 
+1. Python v3.9 (To download: https://www.python.org/downloads/). 
+    * This application was built and tested using Python version 3.9 
+
+2. Install Flask. Additional information on Flask and installation procedures can be found https://pypi.org/project/Flask/
+
 ```
-Python v3.9 (To download: https://www.python.org/downloads/). This application was built and tested using Python version 3.9 
-Install Flask. Command Prompt: pip install Flask. Additional information on Flask and installation procedures can be found https://pypi.org/project/Flask/
-``` 
+$ pip install Flask
+```
+
 
 ## How to Start the Application
 
