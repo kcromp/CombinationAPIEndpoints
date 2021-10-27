@@ -1,0 +1,80 @@
+Test 1
+***
+coins
+1.5
+arrowheads
+3
+buttons
+150
+
+EXPECTED COUNT: 6
+ACTUAL COUNT: 6
+ACCURATE CURRENCY: YES
+
+PASS
+***
+
+Test 2
+***
+coins
+1.5
+arrowheads
+3
+buttons
+150
+stars
+99
+glasses
+21
+
+EXPECTED COUNT: 24
+ACTUAL COUNT: 24
+ACCURATE CURRENCY: YES
+
+PASS
+***
+
+Test 3
+***
+quarters
+4
+dimes
+10
+nickels
+20
+pennies
+100
+
+EXPECTED COUNT: 242
+ACTUAL COUNT: 242
+ACCURATE CURRENCY: YES
+
+PASS
+***
+
+Test 4
+***
+marbles
+20
+stamps
+5
+
+EXPECTED COUNT: 6
+ACTUAL COUNT: 6
+ACCURATE CURRENCY: YES
+
+PASS
+***
+
+Test 5
+***
+quarters
+4
+dimes
+
+EXPECTED RESULT: json message "{"message":"some values are missing from the input file"}"
+ACTUAL RESULT: json message "{"message":"some values are missing from the input file"}"
+Explanation: There was not a corresponding value to the dimes currency listed in the text file
+
+PASS
+***
