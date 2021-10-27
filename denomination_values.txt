@@ -1,0 +1,6 @@
+coins
+1.5
+arrowheads
+3
+buttons
+150
